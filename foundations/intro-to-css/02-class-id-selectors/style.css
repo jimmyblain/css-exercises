@@ -1,1 +1,22 @@
 /* Add CSS Styling */
+/* Type selector - Applies to all matching HTML element types */
+p {
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+    background-color: #FEA7A6;
+}
+
+/* Class selector - Applies to all HTML elements assigned this class attribute */
+.font-24 {
+   font-size: 24px;
+}
+
+/* ID selector - Applies to a unique id assigned to an HTML element */
+#number-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+/* ID selector */
+#number-4 {
+    font-weight: bold;
+    background-color: #80FF80;
+}
